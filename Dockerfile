@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-MAINTAINER ogirardot
+MAINTAINER Olivier Girardot <o.girardot@lateral-thoughts.com>
 
 RUN apt-get update
 RUN apt-get install -y wget default-jdk
